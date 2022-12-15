@@ -1,0 +1,17 @@
+{
+  "name": "discordmee6levelupper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index"
+  },
+  "keywords": [],
+  "author": "kshaurya731",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "undici": "^5.14.0",
+    "ws": "^8.11.0"
+  }
+}
