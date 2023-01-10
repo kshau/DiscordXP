@@ -69,7 +69,7 @@ setInterval(() => {
       "authorization": TOKEN,
       "content-type": "application/json"
     },
-    "body": "{\"content\":\"...hi\"}",
+    "body": "{\"content\":\"<@930954548804223047>\"}",
     "method": "POST"
   }).then();
 
