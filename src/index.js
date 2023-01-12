@@ -32,7 +32,7 @@ function wsConnect() {
 
       var {op, t, d} = json;
 
-      if (t == "MESSAGE_CREATE" && d.author.id == CLIENT_ID && d.content == "...hi" && d.channel_id == CHANNEL_ID) {
+      if (t == "MESSAGE_CREATE" && d.author.id == CLIENT_ID && d.content == "spammy" && d.channel_id == CHANNEL_ID) {
         
         fetch(`https://discord.com/api/v9/channels/${CHANNEL_ID}/messages/${d.id}`, {
           "headers": {
