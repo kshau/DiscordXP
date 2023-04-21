@@ -69,7 +69,7 @@ setInterval(() => {
       "authorization": TOKEN,
       "content-type": "application/json"
     },
-    "body": "{\"content\":\"spammy\"}",
+    "body": "{\"content\":\"songs\"}",
     "method": "POST"
   }).then();
 
