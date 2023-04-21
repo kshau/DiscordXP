@@ -32,7 +32,7 @@ function wsConnect() {
 
       var {op, t, d} = json;
 
-      if (t == "MESSAGE_CREATE" && d.author.id == CLIENT_ID && d.content == "songs" && d.channel_id == CHANNEL_ID) {
+      if (t == "MESSAGE_CREATE" && d.author.id == CLIENT_ID && d.content == "i like dis channel" && d.channel_id == CHANNEL_ID) {
         
         fetch(`https://discord.com/api/v9/channels/${CHANNEL_ID}/messages/${d.id}`, {
           "headers": {
@@ -69,7 +69,7 @@ setInterval(() => {
       "authorization": TOKEN,
       "content-type": "application/json"
     },
-    "body": "{\"content\":\"songs\"}",
+    "body": "{\"content\":\"i like dis channel\"}",
     "method": "POST"
   }).then();
 
